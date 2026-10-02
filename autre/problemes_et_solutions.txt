@@ -1,0 +1,152 @@
+PROBLEMES RENCONTRES ET SOLUTIONS
+Composant Vue 3 + Three.js (Scene3D.vue)
+==================================================
+
+
+1. AWAIT AU NIVEAU RACINE
+--------------------------------------------------
+Probleme :
+  const image = await loaderimage.loadAsync('/image/one.png');
+  Le top-level await n'est pas autorise dans un <script lang="ts">
+  classique de Vue.
+
+Solution :
+  Utiliser <script setup lang="ts">, qui accepte le top-level await.
+  Ici, l'image n'etait jamais utilisee : la ligne a ete supprimee,
+  ainsi que allImageURLs et ImageLoader.
+  Pour charger des images plus tard, utiliser THREE.TextureLoader.
+
+
+2. CANVAS INTROUVABLE (null)
+--------------------------------------------------
+Probleme :
+  var canvas = document.querySelector('#c');
+  Ce code s'execute avant que le template soit monte dans le DOM,
+  donc canvas vaut null et le WebGLRenderer plante.
+
+Solution :
+  Utiliser une ref Vue sur le canvas :
+    <canvas ref="canvasRef"></canvas>
+    const canvasRef = ref<HTMLCanvasElement | null>(null)
+  Initialiser Three.js dans onMounted(), quand le canvas existe.
+
+
+3. TABLEAU D'URLS ECRASE
+--------------------------------------------------
+Probleme :
+  allobject[i] = loader.load(allobject[i], ...);
+  loader.load() ne retourne rien (undefined). Le tableau des URLs
+  etait donc remplace par des undefined.
+
+Solution :
+  Garder les URLs dans une constante separee (MODEL_URLS) et ne
+  pas reaffecter le resultat de loader.load().
+
+
+4. ROTATION ASYNC APPELEE A CHAQUE FRAME
+--------------------------------------------------
+Probleme :
+  tourner() est une fonction async avec un setTimeout de 10 s,
+  appelee a chaque frame tant que tourn vaut true. Cela empile
+  des centaines de promesses et la rotation s'applique plusieurs
+  fois par frame.
+
+Solution :
+  Utiliser un THREE.Clock et tester le temps ecoule :
+    if (clock.getElapsedTime() < SPIN_DURATION) {
+      scene.rotation.y -= 0.01;
+    }
+  Plus de async, ni de setTimeout.
+
+
+5. COMPTEUR DE CHARGEMENT BLOQUE EN CAS D'ERREUR
+--------------------------------------------------
+Probleme :
+  checkProgress() n'etait appele que si le chargement reussissait.
+  Si un fichier echouait, loadingComplete() n'etait jamais appelee.
+
+Solution :
+  Appeler aussi checkProgress() dans le callback d'erreur.
+
+
+6. MODELE GLTF NOIR (PAS DE LUMIERE)
+--------------------------------------------------
+Probleme :
+  La scene ne contenait aucune lumiere. Les materiaux standard
+  d'un GLTF apparaissent noirs sans eclairage (seul le cube, en
+  MeshBasicMaterial, restait visible).
+
+Solution :
+  Ajouter une AmbientLight et une DirectionalLight a la scene.
+
+
+7. REDIMENSIONNEMENT VERIFIE A CHAQUE FRAME
+--------------------------------------------------
+Probleme :
+  resizeRendererToDisplaySize() etait appelee dans la boucle
+  d'animation, et le calcul melangeait window.innerWidth et
+  canvas.clientWidth.
+
+Solution :
+  Ecouter l'evenement "resize" de la fenetre, et mettre a jour
+  renderer.setSize(), camera.aspect et updateProjectionMatrix()
+  uniquement a ce moment-la. Ajouter aussi
+  renderer.setPixelRatio(window.devicePixelRatio).
+
+
+8. PAS DE NETTOYAGE A LA DESTRUCTION DU COMPOSANT
+--------------------------------------------------
+Probleme :
+  La boucle de rendu, les controles et les ressources WebGL
+  continuaient d'exister apres le demontage du composant
+  (fuite memoire).
+
+Solution :
+  Dans onBeforeUnmount() :
+    - retirer l'ecouteur resize
+    - renderer.setAnimationLoop(null)
+    - controls.dispose()
+    - dispose() des geometries et materiaux
+    - renderer.dispose()
+
+
+9. STYLE ET POSITION DU CANVAS
+--------------------------------------------------
+Probleme :
+  Le positionnement etait fait en JavaScript (stl.top / stl.left)
+  et le CSS contenait des regles inutiles (h1, h3, .greetings).
+
+Solution :
+  Mettre le style dans le <style scoped> :
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  Supprimer les regles h1 / h3 / .greetings inutilisees.
+
+
+10. NETTOYAGE DU CODE
+--------------------------------------------------
+Probleme :
+  Import ref inutilise, variables inutilisees (image, allImageURLs,
+  tourn), "var" au lieu de const / let.
+
+Solution :
+  Code simplifie : const / let partout, imports utilises
+  uniquement, code decoupe en fonctions (init, resizeRenderer,
+  loadObjects, checkProgress, animate).
+
+
+POINTS A VERIFIER DANS LE PROJET
+--------------------------------------------------
+- Le fichier sceneAndre.gltf doit etre dans public/models/
+  (le chemin /models/... part de la racine du site).
+- Installer les types TypeScript si besoin :
+    npm install -D @types/three
+- Importer le composant :
+    import Scene3D from './components/Scene3D.vue'
+  puis l'utiliser dans le template : <Scene3D />
