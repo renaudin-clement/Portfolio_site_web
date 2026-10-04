@@ -8,6 +8,7 @@ import Threejs from './components/utils/threejs.vue';
 import part0 from './components/part_general/part0/part0.vue';
 import Part1 from './components/part_general/part1/part1.vue';
 import Part2 from './components/part_general/part2/part2.vue';
+import part3 from './components/part_general/part3/part3.vue';
 
 </script>
 
@@ -20,6 +21,8 @@ import Part2 from './components/part_general/part2/part2.vue';
       <part0 />
       <Part1 />
       <Part2 />
+      <part3 />
+
     </main>
     <pillierGauche class="pillier"/>
   </section>

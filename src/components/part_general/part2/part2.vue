@@ -20,6 +20,7 @@ h2{
     width: 100%;
     justify-content: center;
     text-align: center;
+    color: white;
 }
 
 .Base_Part2{
