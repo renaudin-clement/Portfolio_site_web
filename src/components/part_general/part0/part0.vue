@@ -1,11 +1,16 @@
 <script setup lang="ts">
+import baliseA from './baliseA.vue';
+import baliseB from './baliseB.vue';
+import baliseC from './baliseC.vue';
 
 </script>
 
 <template>
     <section class="Base_Part0">
 
-
+        <baliseA />
+        <baliseB />
+        <baliseC />
         
     </section>
 </template>

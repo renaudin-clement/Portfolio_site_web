@@ -55,7 +55,7 @@ Header{
   position: sticky;
   overflow-y: auto;
   top: 0px;
-  z-index: 2;
+  z-index: 999;
 }
 
 canvas{

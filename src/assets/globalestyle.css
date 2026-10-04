@@ -17,4 +17,8 @@ html,body{
 :root {
   --GrisFoncer: #423a3a;
   --GrisClaire:#d9d9d9;
+
+  --noirBalise:#090808;
+  --noirBalise2:#1d1008;
+  --mainOrange:#E65E09;
 }

@@ -65,11 +65,11 @@ li{
 }
 
 li>a, h1{
-    color: orangered;
+    color: var(--mainOrange);
 }
 
 div{
-    background-color: orangered;
+    background-color: var(--mainOrange);
     width: 100%;
     height: 1em;
 }
