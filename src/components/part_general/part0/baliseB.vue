@@ -12,7 +12,7 @@
 
                 <section class="ContainerSymbole">
                     <section class="ContainerImage">
-                        <img src="" alt="">
+                        <img src="/reposit/icon/icons8-gears-64.png" alt="engrenage">
                     </section>
                 </section>
 
@@ -41,6 +41,7 @@ h2 {
     cursor: pointer; 
 
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
@@ -88,4 +89,15 @@ h2 {
 .Balise:hover .ContainerImage {
     transform: scale(1.05); 
 }
+
+.ContainerImage{
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    text-align: center;
+    height: 5em;
+}
+
 </style>

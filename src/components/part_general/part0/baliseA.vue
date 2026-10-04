@@ -7,12 +7,12 @@
         <section class="BaseBalise">
             <section class="Baseline">
                 <section>
-                    <h2>Stack</h2>
+                    <h2>Info</h2>
                 </section>
 
                 <section class="ContainerSymbole">
                     <section class="ContainerImage">
-                        <img src="" alt="">
+                        <img src="/reposit/icon/icons8-personne-gliphyline/icons8-personne-64.png" alt="personne">
                     </section>
                 </section>
 
@@ -90,4 +90,14 @@ h2 {
     transform: scale(1.05); 
 }
 
+
+.ContainerImage{
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    text-align: center;
+    height: 5em;
+}
 </style>

@@ -7,12 +7,12 @@
         <section class="BaseBalise">
             <section class="Baseline">
                 <section>
-                    <h2>Stack</h2>
+                    <h2>Contacts</h2>
                 </section>
 
                 <section class="ContainerSymbole">
                     <section class="ContainerImage">
-                        <img src="" alt="">
+                        <img src="/reposit/icon/icons8-carte-contact-ios-27-outlined/icons8-carte-contact-100.png" alt="contact">
                     </section>
                 </section>
 
@@ -88,4 +88,16 @@ h2 {
 .Balise:hover .ContainerImage {
     transform: scale(1.05); 
 }
+
+
+.ContainerImage{
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    text-align: center;
+    height: 5em;
+}
+
 </style>
