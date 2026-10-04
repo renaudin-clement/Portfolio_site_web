@@ -12,7 +12,7 @@
 .pillier_droit{
      background-image: url('reposit/fond/dark-technology-hexagonal-background/hexa_dan_wave_10.jpg');
      background-size: cover;
-     height: 100%;
+     height: auto;
      min-height: 2em;
 }
 </style>

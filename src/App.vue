@@ -34,7 +34,7 @@ import Part2 from './components/part_general/part2/part2.vue';
 
 .container{
   display: flex;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
