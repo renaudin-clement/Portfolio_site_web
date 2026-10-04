@@ -10,8 +10,11 @@
         </section>
 
         <section class="ContainerExperience">
-            <section class="ContainerImage">
-                <img src="/reposit/icon/gif-vieux-objets-2.gif" alt="Clement renaudin">
+
+            <section class="SectionImage">
+                <section class="ContainerImage">
+                    <img src="/reposit/icon/gif-vieux-objets-2.gif" alt="Clement renaudin">
+                </section>
             </section>
 
             <section class="ContainerInfoText">
@@ -42,17 +45,29 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.SectionImage{
+    width: 25%;
+    background-color: var(--GrisClaire);
+    align-content: center;
+    padding: 1em;
+    margin: 1em;
 }
 
 .ContainerImage{
-    width: 25%;
-    background-color: var(--GrisClaire);
+    padding: 1em;
+    background-color: var(--mainOrange);
     
 }
 
 .ContainerInfoText{
     width: 75%;
     background-color: var(--GrisClaire);
+    margin: 1em;
+    padding: 1em;
 }
 
 
@@ -70,10 +85,15 @@
 
 .TitreExperience>h2{
     text-align: center;
+    margin: 0.2em;
+    font-size: 1.1em;
 }
 
 .ContainerLieu>p{
     text-align: right;
+    margin: 0.2em;
+    font-size: 1.1em;
+    padding-right:1em ;
 }
 
 img {

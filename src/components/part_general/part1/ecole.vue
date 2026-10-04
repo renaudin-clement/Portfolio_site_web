@@ -4,8 +4,10 @@
 
 <template>
     <section class="Information">
-        <section class="ContainerImage">
-            <img src="/reposit/icon/iut.png" alt="Iut Orleans">
+        <section class="SectionImage">
+            <section class="ContainerImage">
+                <img src="/reposit/icon/iut.jpg" alt="Iut Orleans">
+            </section>
         </section>
         <section class="ContainerInfoText">
             <h2>But Informatique</h2>
@@ -22,20 +24,32 @@
 }
 
 .ContainerImage{
-    width: 25%;
-    border-radius: 16px;
-    background-color: var(--GrisClaire);
-    
+
 }
 
+.SectionImage{
+    width: 13%;
+    background-color: var(--GrisClaire);
+    align-content: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 1em;
+    margin: 1em;
+}
+
+
 .ContainerInfoText{
-    width: 75%;
+    width: 77%;
     border-radius: 16px;
     background-color: var(--GrisClaire);
+    align-content: center;
+    padding: 1em;
+    margin: 1em;
+
 }
 
 img {
     height: 100%;
-  width: 100%;
+    width: 10em;
 }
 </style>
