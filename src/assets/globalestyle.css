@@ -1,4 +1,12 @@
-html,body,#app{
+html,body{
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 150%;
+}
+
+#app{
   margin: 0;
   padding: 0;
 
@@ -8,4 +16,5 @@ html,body,#app{
 
 :root {
   --GrisFoncer: #423a3a;
+  --GrisClaire:#d9d9d9;
 }

@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    <section class="pillier_droit">
+    <aside class="pillier_droit">
         
-    </section>
+    </aside>
 </template>
 
 <style scoped>
