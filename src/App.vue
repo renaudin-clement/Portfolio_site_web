@@ -10,18 +10,37 @@ import pillierGauche from './components/utils/pillierGauche.vue';
   <Header />
 
   <section class="container">
-    <pillierDroit/>
+    <pillierDroit class="pillier"/>
     <main>
       
     </main>
-    <pillierGauche/>
+    <pillierGauche class="pillier"/>
   </section>
 </template>
 
 <style scoped>
 .pillier{
-  background-image: url();
-  width: 25%;
+  width: 15%;
 }
 
+.container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  width: 70%;
+  height: 100%;
+  box-shadow: 0px 0px 7px 7px #000000;
+  z-index: 1;
+  background-color: var(--GrisFoncer);
+  
+}
+
+Header{
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
 </style>
