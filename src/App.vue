@@ -1,18 +1,27 @@
-<script setup  lang="ts">
-  import Scene3D from './components/threejs.vue'
+<script setup lang="ts">
+//import Scene3D from './components/utils/threejs.vue/index.js'
+import Header from './components/main/Header.vue'
+import pillierDroit from './components/utils/pillierDroit.vue';
+import pillierGauche from './components/utils/pillierGauche.vue';
 
 </script>
 
 <template>
-    <header> 
-      <h1> Renaudin Clément</h1>
-    </header>
+  <Header />
 
+  <section class="container">
+    <pillierDroit/>
     <main>
-      <Scene3D/>
+      
     </main>
+    <pillierGauche/>
+  </section>
 </template>
 
 <style scoped>
+.pillier{
+  background-image: url();
+  width: 25%;
+}
 
 </style>
