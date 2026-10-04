@@ -23,6 +23,7 @@
 </template>
 
 <style scoped>
+
 h2 {
     text-align: center;
     color: #ffffff;
@@ -30,26 +31,36 @@ h2 {
     padding: 0;
 }
 
+
 .Balise {
     background-color: var(--noirBalise);
     width: 11em;
     height: 15em;
     align-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer; 
+
+    padding-left: 10px;
+}
+
+
+.Balise:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 122, 0, 0.3); 
 }
 
 .BaseBalise {
     background-color: var(--mainOrange);
     z-index: 2;
     width: 11em;
-    height: 14em;
+    height: 15em;
     align-content: center;
 }
 
 .Baseline {
     background-color: var(--noirBalise2);
     z-index: 3;
-
-    height: 13em;
+    height: 14em;
     align-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +70,6 @@ h2 {
 
 .ContainerSymbole {
     align-content: center;
-
     justify-content: center;
     display: flex;
 }
@@ -71,6 +81,11 @@ h2 {
     width: 8em;
     align-content: center;
     border-radius: 11px;
+    transition: transform 0.3s ease;
+}
 
+
+.Balise:hover .ContainerImage {
+    transform: scale(1.05); 
 }
 </style>
