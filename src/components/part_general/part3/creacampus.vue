@@ -10,8 +10,8 @@
 
         <section class="ContainerInfo">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam voluptas quis distinctio eos quam, aliquid 
-                similique qui? Expedita doloribus voluptatem voluptate quisquam voluptatum! Voluptatum ex nobis ipsam distinctio earum.
+                Participation au concours crea campus 2025-2026
+                Créa Campus est le rendez-vous incontournable des étudiants de la Région Centre-Val de Loire qui souhaitent se sensibiliser de façon approfondie à l’entrepreneuriat !
             </p>
         </section>
     </section>
