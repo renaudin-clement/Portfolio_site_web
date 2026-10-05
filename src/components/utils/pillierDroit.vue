@@ -14,5 +14,6 @@
      background-size: cover;
      height: auto;
      min-height: 2em;
+     background-position: center;
 }
 </style>

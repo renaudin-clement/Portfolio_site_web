@@ -21,10 +21,14 @@ import baliseC from './baliseC.vue';
     background-image: url('reposit/fond/abstract-wireframe-grid-line-room-perspective-dark-background/grid.jpg');
     background-size: cover;
     height: 45em;
-
+    background-position: center;
     display: flex;
     justify-content: space-around;
     align-content: center;
     align-items: center;
+
+    padding-bottom: 1em;
+    margin-bottom: 4em;
+
 }
 </style>

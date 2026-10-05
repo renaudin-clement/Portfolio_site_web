@@ -20,7 +20,9 @@
 <style scoped>
 .Information {
     display: flex;
+    justify-content: space-between;
     width: 100%;
+    margin-top: 1em;
 }
 
 .ContainerImage{
@@ -34,7 +36,6 @@
     text-align: center;
     border-radius: 16px;
     padding: 1em;
-    margin: 1em;
 }
 
 
@@ -44,8 +45,6 @@
     background-color: var(--GrisClaire);
     align-content: center;
     padding: 1em;
-    margin: 1em;
-
 }
 
 img {

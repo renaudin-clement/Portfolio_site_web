@@ -15,5 +15,6 @@
     min-height: 2em;
     background-size: cover;
     -webkit-transform:scaleX(-1) ;
+    background-position: center;
 }
 </style>

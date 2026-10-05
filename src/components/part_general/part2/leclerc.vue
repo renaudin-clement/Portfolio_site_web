@@ -13,7 +13,7 @@
 
             <section class="SectionImage">
                 <section class="ContainerImage">
-                    <img src="/reposit/icon/gif-vieux-objets-2.gif" alt="Clement renaudin">
+                    <img src="/reposit/icon/leclercallonnes.jpeg" alt="Clement renaudin">
                 </section>
             </section>
 
@@ -99,5 +99,6 @@
 img {
     height: 100%;
   width: 100%;
+  border-radius: 16px;
 }
 </style>

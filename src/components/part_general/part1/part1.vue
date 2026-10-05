@@ -16,5 +16,8 @@ import ecole from './ecole.vue';
 <style scoped>
 .Base_Part1{
     width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
 }
 </style>

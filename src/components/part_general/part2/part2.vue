@@ -25,5 +25,8 @@ h2{
 
 .Base_Part2{
     width: 100%;
+    background-color: var(--noirBalise);
+    margin-bottom: 3em;
+    padding-bottom: 3em;
 }
 </style>
