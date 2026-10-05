@@ -10,7 +10,7 @@ import CodeGameJam2025 from './CodeGameJam2025.vue';
     <section class="Base_Part3">
         <h2>Ma participations aux évènements</h2>
 
-        <section>
+        <section class="GroupEvent">
             <creacampus/>
             <nuitInfo2025/>
             <CodeGameJam2025/>
@@ -21,6 +21,14 @@ import CodeGameJam2025 from './CodeGameJam2025.vue';
 </template>
 
 <style scoped>
+
+.GroupEvent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 8em;
+    padding-right: 8em;
+}
 
 h2{
     text-align: center;
