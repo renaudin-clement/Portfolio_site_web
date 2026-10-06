@@ -9,10 +9,10 @@
         </section>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Demo</a></li>
-                <li><a href="">Projets</a></li>
-                <li><a href="">Contacts</a></li>
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/Demo">Demo</router-link></li>
+                <li><router-link to="/projets">Projets</router-link></li>
+                <li><router-link to="/contacts">Contacts</router-link></li>
             </ul>
         </nav>
         <div></div>
@@ -27,6 +27,7 @@ header{
   justify-content: start;
   align-content: center;
   width: 100%;
+  height: 100%;
   background-color: #403e3e;
 }
 

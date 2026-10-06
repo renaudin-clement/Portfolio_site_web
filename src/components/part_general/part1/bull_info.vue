@@ -26,6 +26,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 13em;
 }
 
 .ContainerImage {
@@ -33,7 +34,7 @@
     text-align: center;
     align-content: center;
     background-color: var(--GrisClaire);
-
+    
 }
 
 .ContainerInfoText {
