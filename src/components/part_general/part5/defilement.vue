@@ -74,7 +74,8 @@ onUnmounted(() => cancelAnimationFrame(rafId))
   position: relative;
   width: 100%;
   height: 9em;
-  background-color: var(--GrisClaire);
+  background-color: #6c413e;
+  border: 9px solid var(--mainOrange);
   overflow: hidden;
 }
 
