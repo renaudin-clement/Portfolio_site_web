@@ -1,0 +1,24 @@
+[
+  { "id": 1, "nom": "Django"  , "url": "/reposit/techno/trails/Django-Logo.png"},
+  { "id": 2, "nom": "Flask" , "url": "/reposit/techno/trails/flask-logo-icon.webp"},
+  { "id": 3, "nom": "Java" , "url": "/reposit/techno/trails/Java-Logo.png"},
+  { "id": 4, "nom": "NestJS" , "url": "/reposit/techno/trails/NestJS-logo-wordmark.svg"},
+  { "id": 5, "nom": "Nextjs" , "url": "/reposit/techno/trails/nextjs-2.svg"},
+  { "id": 6, "nom": "Opengl" , "url": "/reposit/techno/trails/opengl.png"},
+  { "id": 7, "nom": "Python" , "url": "/reposit/techno/trails/python-logo-master-v3-TM.png"},
+  { "id": 8, "nom": "Pytorch" , "url": "/reposit/techno/trails/pytorch.png"},
+  { "id": 9, "nom": "Sdl" , "url": "/reposit/techno/trails/sdl.png"},
+  { "id": 10, "nom": "Vuejs" , "url":"/reposit/techno/trails/vuejs_logo_icon_169247.webp"}
+]
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,7 @@ import Part1 from './components/part_general/part1/part1.vue';
 import Part2 from './components/part_general/part2/part2.vue';
 import part3 from './components/part_general/part3/part3.vue';
 import part4 from './components/part_general/part4/part4.vue';
+import part5 from './components/part_general/part5/part5.vue';
 
 </script>
 
@@ -24,6 +25,7 @@ import part4 from './components/part_general/part4/part4.vue';
       <Part2 />
       <part3 />
       <part4 />
+      <part5 />
 
     </main>
     <pillierGauche class="pillier"/>

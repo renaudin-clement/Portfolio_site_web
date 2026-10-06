@@ -6,7 +6,7 @@
     <section class="ContainerExperiencePro">
 
         <section class="TitreExperience">
-            <h2> Stage 3 année BUT Informatique: Application de communication </h2>
+            <h2> Stage 3 année BUT Informatique: Application de communication (4 mois)</h2>
         </section>
 
         <section class="ContainerExperience">
@@ -18,18 +18,18 @@
             </section>
 
             <section class="ContainerInfoText">
-                <h2>Bienvenue</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magni facere, eum quaerat enim harum quo
-                    quisquam sapiente ex ipsa consectetur, qui obcaecati asperiores ratione nihil sequi hic magnam. Optio.
+                <h2>Objectif Du Stage</h2>
+                <p>
+                    1 Développement d’une application de communication comprenant une messagerie, un annuaire et un gestionnaire de documents. <br>
+                    2 Mise en place d’un livret d’accueil numérique accessible via un QR code.<br>
+                    3 Promotion des alliances locales.<br>
                 </p>
             </section>
 
 
-            <section class="ContainerInfoText">
-                <h2>Bienvenue</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magni facere, eum quaerat enim harum quo
-                    quisquam sapiente ex ipsa consectetur, qui obcaecati asperiores ratione nihil sequi hic magnam. Optio.
-                </p>
+            <section class="ContainerInfoText2">
+            <h2>avril 2026 - juillet 2026</h2>
+            <button> En s'avoir plus</button>
             </section>
         </section>
 
@@ -50,7 +50,7 @@
 }
 
 .SectionImage{
-    width: 25%;
+    width: 13%;
     background-color: var(--GrisClaire);
     align-content: center;
     padding: 1em;
@@ -64,13 +64,18 @@
 }
 
 .ContainerInfoText{
-    width: 75%;
+    width: 67%;
     background-color: var(--GrisClaire);
     margin: 1em;
     padding: 1em;
 }
 
-
+.ContainerInfoText2{
+    width: 15%;
+    background-color: var(--GrisClaire);
+    margin: 1em;
+    padding: 1em;
+}
 
 .ContainerExperience{
     display: flex;
