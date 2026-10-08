@@ -9,4 +9,13 @@ import demo1 from '@/components/DemoCompo/demo1.vue';
 
 </template>
 
-<style scoped></style>
+<style scoped>
+
+h1{
+      text-align: center;
+      width: 100%;
+      color:#ffff;
+      margin-bottom: 0;
+}
+
+</style>

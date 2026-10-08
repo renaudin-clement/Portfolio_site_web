@@ -8,9 +8,7 @@ import Threejs from '../utils/threejs.vue';
             <h2>Projets Threejs</h2>
             <section>
                   <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quae in esse reprehenderit
-                        provident et, voluptate molestias porro tempora autem facere nobis aliquid assumenda ratione
-                        hic. Tenetur voluptate omnis sapiente!
+                     Initiation à Three.js et utilisation de Blender pour la réalisation de scènes 3D.
                   </p>
             </section>
             <section class="renderThreejs">
@@ -24,8 +22,18 @@ import Threejs from '../utils/threejs.vue';
 
 .ContainerDemo{
       padding: 2em;
-
+      padding-top: 0;
       padding-bottom: 2em;
+      background-color: var(--noirBalise);
+}
+
+h2{
+      margin-bottom: 0;
+      color: #ffffff;
+}
+
+p{
+      color: #ffffff;
 }
 
 .renderThreejs{
