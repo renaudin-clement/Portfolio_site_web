@@ -26,8 +26,7 @@ import pillierGauche from './components/utils/pillierGauche.vue';
 
 .container{
   display: flex;
-  height: auto;
-  min-height: 100%;
+  flex: 1;
   width: 100%;
 }
 
@@ -35,7 +34,6 @@ main{
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 100%;
   box-shadow: 0px 0px 7px 7px #000000;
   z-index: 1;
   background-color: var(--GrisFoncer);
@@ -44,7 +42,6 @@ main{
 
 Header{
   position: sticky;
-  overflow-y: auto;
   top: 0px;
   z-index: 999;
 }

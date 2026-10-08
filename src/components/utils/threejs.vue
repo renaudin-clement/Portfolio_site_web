@@ -7,7 +7,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 // Le canvas n'existe qu'après le montage du composant : on utilise une ref
 const canvasRef = ref<HTMLCanvasElement | null>(null)
 
-const MODEL_URLS = ['/models/sceneAndre.gltf']
+const MODEL_URLS = ['/models/sceneV2.gltf']
 const SPIN_DURATION = 10
 
 const scene = new THREE.Scene()

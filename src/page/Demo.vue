@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import Threejs from '../components/utils/threejs.vue';
+import demo1 from '@/components/DemoCompo/demo1.vue';
 
 </script>
 
 <template>
-      <Threejs />
+      <h1> Zone Demonstration</h1>
+      <demo1/>
+
 </template>
 
-<style scoped>
-
-
-</style>
+<style scoped></style>
