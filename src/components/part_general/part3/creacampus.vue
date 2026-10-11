@@ -36,7 +36,7 @@
 }
 
 img{
-    width: 12em;
+    width: 75%;
     height: 9em;
 }
 

@@ -49,6 +49,6 @@
 
 img {
     height: 100%;
-    width: 10em;
+    width: 100%;
 }
 </style>

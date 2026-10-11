@@ -49,7 +49,7 @@ p{
 }
 
 img {
-    width: 17em;
+  width:100%;
   height: 12em;
 }
 </style>
