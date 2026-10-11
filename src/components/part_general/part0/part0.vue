@@ -18,7 +18,7 @@ import baliseC from './baliseC.vue';
 <style scoped>
 .Base_Part0{
     width: 100%;
-    background-image: url('reposit/fond/abstract-wireframe-grid-line-room-perspective-dark-background/grid.jpg');
+    background-image: url('/reposit/fond/abstract-wireframe-grid-line-room-perspective-dark-background/grid.jpg');
     background-size: cover;
     height: 34em;
     background-position: center;

@@ -22,7 +22,7 @@ import baliseC from './baliseC.vue';
 
 .topblock{
     width: 100%;
-    background-image: url('reposit/fond/abstract-wireframe-grid-line-room-perspective-dark-background/grid.jpg');
+    background-image: url('/reposit/fond/abstract-wireframe-grid-line-room-perspective-dark-background/grid.jpg');
     background-size: cover;
     height: 30em;
     background-position: center;

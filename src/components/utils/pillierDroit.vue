@@ -10,7 +10,7 @@
 
 <style scoped>
 .pillier_droit{
-     background-image: url('reposit/fond/dark-technology-hexagonal-background/hexa_dan_wave_10.jpg');
+     background-image: url('/reposit/fond/dark-technology-hexagonal-background/hexa_dan_wave_10.jpg');
      background-size: cover;
      height: auto;
      min-height: 2em;
