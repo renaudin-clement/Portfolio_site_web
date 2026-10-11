@@ -7,12 +7,34 @@
         <h2>Ma Selection de Projets</h2>
 
         <section class="GroupProjet">
-            <img src="/reposit/project/Django.png" alt="projet Django">
-            <img src="/reposit/project/journaliste.png" alt="projet journaliste">
-            <img src="/reposit/project/leclercAllonnes.png" alt="projet leclercAllonnes">
-            <img src="/reposit/project/Trisln.png" alt="projet Trisln">
-            <img src="/reposit/project/zoodefis.png" alt="projet zoodefis">
-            <img src="/reposit/project/NestJsApp.png" alt="projet NestJsApp">
+            <router-link to="projets">
+                <img src="/reposit/project/Django.png" alt="projets Django">
+            </router-link>
+
+             <router-link to="projets">
+                <img src="/reposit/project/journaliste.png" alt="projets journaliste">
+            </router-link>
+
+             <router-link to="projets">
+                <img src="/reposit/project/leclercAllonnes.png" alt="projets leclercAllonnes">
+            </router-link>
+
+
+             <router-link to="projets">
+                <img src="/reposit/project/Trisln.png" alt="projets Trisln">
+            </router-link>
+
+             <router-link to="projets">
+                <img src="/reposit/project/zoodefis.png" alt="projets zoodefis">
+            </router-link>
+            
+            <router-link to="projets">
+                <img src="/reposit/project/NestJsApp.png" alt="projets NestJsApp">
+            </router-link>
+            
+            
+            
+            
         </section>
 
     </section>

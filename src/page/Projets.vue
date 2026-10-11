@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import Threejs from '../components/utils/threejs.vue';
+
 
 </script>
 
 <template>
-      
+      <h2>hello there</h2>
 </template>
 
 <style scoped>

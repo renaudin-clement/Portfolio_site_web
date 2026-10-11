@@ -7,11 +7,13 @@
     <section class="Base_Part6">
         <section class="SectionAutre">
             <section class="ContainerInfo">
+            <h2>Démo et Projet en cours</h2>
             <p>
-                Participation à l’édition 2024 de la Nuit de l’Info.
-                Cette année nous devions développer un site dont le thème était de promouvoir le numérique durable et libre,
-                tout en implémentant les défis proposés par des entreprises partenaires. Le theme etait locean un organisme vivant.
+                Vous souhaitez découvrir mes compétences ou explorer quelques exemples de réalisations ? Je vous invite à consulter la section <router-link to="demo"> « Démo »</router-link>, où vous trouverez une sélection de projets personnels actuellement en cours de conception.
             </p>
+            <router-link to="demo">
+                <button>ThreeJs_Projet</button>
+            </router-link>
             </section>
             <section class="ContainerImage">
                 <img src="/reposit/icon/gif-vieux-objets-2.gif" alt="ordinateur gif">
@@ -39,7 +41,9 @@
 .ContainerInfo{
     width: 75%;
     padding: 1em;
-    background-color: var(--GrisClaire)
+    padding-top: 0;
+    background-color: var(--GrisClaire);
+    border: 8px solid var(--mainOrange);
 }
 
 
@@ -50,5 +54,6 @@
 
 img{
       width: 17em;
+      height: 100%;
 }
 </style>
