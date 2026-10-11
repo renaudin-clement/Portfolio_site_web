@@ -4,7 +4,7 @@ import ecole from './ecole.vue';
 </script>
 
 <template>
-    <section class="Base_Part1">
+    <section class="Base_Part1" id="Info_perso">
         <bull_info />
         <ecole/>
 

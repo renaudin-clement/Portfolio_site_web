@@ -4,7 +4,7 @@ import defilement from './defilement.vue';
 </script>
 
 <template>
-    <section class="Base_Part5">
+    <section class="Base_Part5" id="Base_Part5">
         <h2>Mes compétences</h2>
 
         <section class="GroupProjet">

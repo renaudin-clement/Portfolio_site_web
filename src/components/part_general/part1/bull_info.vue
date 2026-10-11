@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="Information">
+    <section class="Information" >
         <section class="ContainerInfoText">
             <h2>Bienvenue</h2>
             <p>Jeune diplômé d’un BUT Informatique – parcours Réalisation d’applications : conception, développement,

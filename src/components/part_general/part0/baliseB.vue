@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    <a href="#Base_Part5">
     <section class="Balise">
         <section class="BaseBalise">
             <section class="Baseline">
@@ -20,6 +21,7 @@
             </section>
         </section>
     </section>
+    </a>
 </template>
 
 <style scoped>

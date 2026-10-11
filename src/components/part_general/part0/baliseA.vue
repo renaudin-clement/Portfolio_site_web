@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    <a href="#Info_perso">
     <section class="Balise">
         <section class="BaseBalise">
             <section class="Baseline">
@@ -20,6 +21,7 @@
             </section>
         </section>
     </section>
+    </a>
 </template>
 
 <style scoped>

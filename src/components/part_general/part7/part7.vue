@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <section class="Base_Part7">
+    <section class="Base_Part7" id="Base_Part7">
         <section class="GroupProjet">
 
         </section>
