@@ -21,3 +21,8 @@ html,body{
   --noir:#141414;
   --mainOrange:#E65E09;
 }
+
+
+p{
+  overflow:auto;
+}

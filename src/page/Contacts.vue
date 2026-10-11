@@ -3,9 +3,8 @@
 </script>
 
 <template>
-    <h1>Contacts</h1>
-
     <section class="Contact">
+        <h1>Contacts</h1>
         <section class="info">
             <ul>
                 <li> <img src="/reposit/icon/contact/icons8-linkedin-96.png" alt="Linkedin">
@@ -27,9 +26,10 @@
     width: 100%;
     background-image: url('/reposit/icon/contact/top-view-desk-concept-with-smartphone.jpg');
     background-size: cover;
-    height: 87%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 h1 {
@@ -37,14 +37,20 @@ h1 {
     width: 100%;
     color: #ffff;
     margin-bottom: 0;
-    height: 10%;
+    height: 6%;
+    background-color: #646262e8;
+    padding-bottom: 0.5em;
+    align-self: center;
+    align-content: center;
+
 }
 
 .info {
-    background-color: #e3dfdfc9;
-    height: 24em;
-    width: 46%;
+    background-color: #fffffff5;
+    width: 100%;
     padding: 1em;
+    align-content: center;
+    height: fit-content;
 }
 
 ul {
@@ -53,7 +59,8 @@ ul {
     margin: 0;
     padding: 0;
     align-items: center;
-    height: 100%;
+    height: 68%;
+    align-content: center;
 }
 
 li {
@@ -69,5 +76,11 @@ p,
 a {
     padding-left: 1em;
     font-size: 1.2em;
+    overflow:auto;
+}
+
+img {
+    height: 100%;
+    width: 4em;
 }
 </style>
