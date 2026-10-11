@@ -17,8 +17,7 @@
 
 .Base_Part7 {
     width: 100%;
-    background-color: var(--noirBalise);
-    margin-bottom: 7em;
+    margin-bottom: 1em;
     padding-bottom: 3em;
 }
 </style>

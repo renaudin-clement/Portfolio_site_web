@@ -25,7 +25,7 @@ h2 {
 
 .Base_Part5 {
     width: 100%;
-    background-color: var(--noirBalise);
+    background-color: var(--noir);
     margin-bottom: 7em;
     padding-bottom: 3em;
 }

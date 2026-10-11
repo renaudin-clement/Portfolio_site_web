@@ -8,7 +8,22 @@ import zoodefi from './zoodefi.vue';
         <h2>Mes Expériences Pro</h2>
 
         <leclerc  />
+        <br/>
+
+        <section class="separation">
+            <div></div> <div></div> <div></div> <div></div> <div></div> <div></div>
+        </section>
+        
+        <br/>
         <zoodefi  />
+
+                <br/>
+
+        <section class="separation">
+            <div class="maxsepa"></div> 
+        </section>
+         <br/>
+
         
     </section>
 </template>
@@ -23,9 +38,27 @@ h2{
     color: white;
 }
 
+.separation{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+div{
+    background-color: var(--mainOrange);
+  height: 0.2em;
+  width: 6em;   
+
+}
+
+.maxsepa{
+  height: 1em;
+  width:80%;   
+}
+
 .Base_Part2{
     width: 100%;
-    background-color: var(--noirBalise);
+    background-color: var(--noir);
     margin-bottom: 3em;
     padding-bottom: 3em;
 }

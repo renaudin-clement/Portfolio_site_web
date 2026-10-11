@@ -81,8 +81,8 @@ h2 {
 
 .Base_Part4 {
     width: 100%;
-    background-color: var(--noirBalise);
-    margin-bottom: 7em;
+    background-color: var(--noir);
+    margin-bottom: 2em;
     padding-bottom: 3em;
 }
 </style>

@@ -39,6 +39,6 @@ padding-top: 2em;
 
 .Base_Part8 {
     width: 100%;
-    background-color: var(--noirBalise);
+    background-color: var(--noir);
 }
 </style>

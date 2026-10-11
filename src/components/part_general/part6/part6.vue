@@ -43,13 +43,12 @@
     padding: 1em;
     padding-top: 0;
     background-color: var(--GrisClaire);
-    border: 8px solid var(--mainOrange);
+    border: 8px solid var(--noir);
 }
 
 
 .Base_Part6 {
     width: 100%;
-    background-color: var(--noirBalise);
 }
 
 img{
