@@ -4,19 +4,22 @@
 
 <template>
     <section class="Contact">
-        <h1>Contacts</h1>
-        <section class="info">
-            <ul>
-                <li> <img src="/reposit/icon/contact/icons8-linkedin-96.png" alt="Linkedin">
-                    <p>Linkedin : <a href="https://www.linkedin.com/in/renaudin-clement/"> renaudin-clement</a> </p>
-                </li>
-                <li> <img src="/reposit/icon/contact/icons8-github-96.png" alt="Git-hub ">
-                    <p>Git-hub : <a href="https://github.com/renaudin-clement"> renaudin-clement</a> </p>
-                </li>
-                <li> <img src="/reposit/icon/contact/icons8-gmail-nouveau-96.png" alt="E-mails">
-                    <p>E-mails : <a href="pro.renaudin.clement@gmail.com"> pro.renaudin.clement@gmail.com</a> </p>
-                </li>
-            </ul>
+
+    <section class="ContainerContact">
+            <h1>Contacts</h1>
+            <section class="info">
+                <ul>
+                    <li> <img src="/reposit/icon/contact/icons8-linkedin-96.png" alt="Linkedin">
+                        <p>Linkedin : <a href="https://www.linkedin.com/in/renaudin-clement/"> renaudin-clement</a> </p>
+                    </li>
+                    <li> <img src="/reposit/icon/contact/icons8-github-96.png" alt="Git-hub ">
+                        <p>Git-hub : <a href="https://github.com/renaudin-clement"> renaudin-clement</a> </p>
+                    </li>
+                    <li> <img src="/reposit/icon/contact/icons8-gmail-nouveau-96.png" alt="E-mails">
+                        <p>E-mails : <a href="pro.renaudin.clement@gmail.com"> pro.renaudin.clement@gmail.com</a> </p>
+                    </li>
+                </ul>
+            </section>
         </section>
     </section>
 </template>
@@ -30,6 +33,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: center;
 }
 
 h1 {
@@ -45,10 +49,14 @@ h1 {
 
 }
 
+.ContainerContact{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 .info {
     background-color: #fffffff5;
     width: 100%;
-    padding: 1em;
     align-content: center;
     height: fit-content;
 }
@@ -57,7 +65,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
+    padding: 1em;
     align-items: center;
     height: 68%;
     align-content: center;
