@@ -25,8 +25,10 @@ h2 {
 
 .Base_Part5 {
     width: 100%;
-    background-color: var(--noir);
-    margin-bottom: 7em;
+    
+    background-image: url('/reposit/fond/abstract-textured-backgound.jpg');
+    background-size: cover;
+
     padding-bottom: 3em;
 }
 </style>
