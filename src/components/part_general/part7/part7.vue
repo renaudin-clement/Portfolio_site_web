@@ -17,7 +17,5 @@
 
 .Base_Part7 {
     width: 100%;
-    margin-bottom: 1em;
-    padding-bottom: 3em;
 }
 </style>

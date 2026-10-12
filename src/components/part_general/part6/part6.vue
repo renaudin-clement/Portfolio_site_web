@@ -49,6 +49,12 @@
 
 .Base_Part6 {
     width: 100%;
+
+    background-image: url("/reposit/fond/wave-red-background-abstract-with-modern-style-gradient/ayangku_5.jpg");
+    background-size: inherit;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 img{

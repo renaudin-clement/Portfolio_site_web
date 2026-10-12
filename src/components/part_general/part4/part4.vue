@@ -82,7 +82,8 @@ h2 {
 .Base_Part4 {
     width: 100%;
     background-color: var(--noir);
-    margin-bottom: 2em;
+    background-image: url("/reposit/fond/wave-red-background-abstract-with-modern-style-gradient/ayangku_5.jpg");
+    background-size: inherit;
     padding-bottom: 3em;
 }
 </style>

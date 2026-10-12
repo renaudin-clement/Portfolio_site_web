@@ -40,5 +40,9 @@ h2{
 
 .Base_Part3{
     width: 100%;
+    padding-bottom: 1em;
+
+    background-image: url('/reposit/fond/abstract-textured-backgound.jpg');
+    background-size: cover;
 }
 </style>

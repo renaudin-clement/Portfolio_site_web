@@ -49,11 +49,7 @@ onUnmounted(() => cancelAnimationFrame(rafId))
 
 <template>
   <section class="ContainerEvent">
-    <section
-      class="ContainerInfo"
-      @mouseenter="enPause = true"
-      @mouseleave="enPause = false"
-    >
+    <section class="ContainerInfo" @mouseenter="enPause = true" @mouseleave="enPause = false">
       <ul v-for="n in NB_LISTES" :key="n" ref="listes" class="defiler">
         <li v-for="techno in technos" :key="techno.id" class="ContainerImage">
           <img :src="techno.url" :alt="techno.nom" />
@@ -74,9 +70,12 @@ onUnmounted(() => cancelAnimationFrame(rafId))
   position: relative;
   width: 100%;
   height: 9em;
-  background-color: #6c413e;
-  border: 9px solid var(--mainOrange);
+  background-color: #f9f9f9;
+  border: 9px solid #528e9c;
   overflow: hidden;
+  border-radius: 16px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .defiler {
@@ -86,7 +85,7 @@ onUnmounted(() => cancelAnimationFrame(rafId))
   display: flex;
   flex-wrap: nowrap;
   margin: 0;
-  padding: 0;
+  padding: 1em;
   will-change: transform;
 }
 

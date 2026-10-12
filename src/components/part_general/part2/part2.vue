@@ -9,10 +9,6 @@ import zoodefi from './zoodefi.vue';
 
         <leclerc  />
         <br/>
-
-        <section class="separation">
-            <div></div> <div></div> <div></div> <div></div> <div></div> <div></div>
-        </section>
         
         <br/>
         <zoodefi  />
@@ -58,8 +54,9 @@ div{
 
 .Base_Part2{
     width: 100%;
-    background-color: var(--noir);
-    margin-bottom: 3em;
+    background-image: url("/reposit/fond/grunge-style-scratched-cracked-metal-texture-background.jpg");
+    background-size: cover;
+
     padding-bottom: 3em;
 }
 </style>

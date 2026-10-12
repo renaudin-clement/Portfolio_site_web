@@ -28,7 +28,6 @@ import baliseC from './baliseC.vue';
     align-items: center;
 
     padding-bottom: 1em;
-    margin-bottom: 4em;
 
 }
 </style>

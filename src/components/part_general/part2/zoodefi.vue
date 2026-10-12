@@ -46,6 +46,8 @@
     width: 100%;
     padding-bottom: 1em;
     padding-top: 1em;
+
+     border-radius: 16px;
 }
 
 .SectionImage{
@@ -54,12 +56,14 @@
     align-content: center;
     padding: 1em;
     margin: 1em;
+
+     border-radius: 16px;
 }
 
 .ContainerImage{
     padding: 1em;
     background-color: var(--mainOrange);
-    
+     border-radius: 16px;
 }
 
 .ContainerInfoText{
@@ -67,6 +71,7 @@
     background-color: var(--GrisClaire);
     margin: 1em;
     padding: 1em;
+     border-radius: 16px;
 }
 
 .ContainerInfoText2{
@@ -74,12 +79,14 @@
     background-color: var(--GrisClaire);
     margin: 1em;
     padding: 1em;
+     border-radius: 16px;
 }
 
 .ContainerExperience{
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
+     border-radius: 16px;
 }
 
 .TitreExperience,.ContainerLieu{

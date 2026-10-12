@@ -5,6 +5,7 @@ import ecole from './ecole.vue';
 
 <template>
     <section class="Base_Part1" id="Info_perso">
+        <h2> Information </h2>
         <bull_info />
         <ecole/>
 
@@ -14,10 +15,23 @@ import ecole from './ecole.vue';
 </template>
 
 <style scoped>
+
+h2{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
 .Base_Part1{
     width: 100%;
-    padding-left: 1em;
     padding-right: 1em;
-    margin-bottom: 2em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+
+    background-image: url('/reposit/fond/abstract-textured-backgound.jpg');
+    background-size: cover;
 }
 </style>
