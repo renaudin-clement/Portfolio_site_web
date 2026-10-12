@@ -34,6 +34,7 @@
     text-align: center;
     align-content: center;
     background-color: var(--GrisClaire);
+     border-radius: 16px;
     
 }
 
@@ -42,6 +43,7 @@ width: 70%;
   background-color: var(--GrisClaire);
   padding-left: 1em;
   padding-right: 2em;
+    border-radius: 16px;
 }
 
 p{

@@ -22,23 +22,27 @@
     display: flex;
     flex-wrap: nowrap;
     padding: 1em;
+     border-radius: 16px;
 
 }
 
 .ContainerImage{
     width: 25%;
     text-align: right;
+     border-radius: 16px;
 }
 
 .ContainerInfo{
     width: 75%;
     padding: 1em;
-    background-color: var(--GrisClaire)
+    background-color: var(--GrisClaire);
+     border-radius: 16px;
 }
 
 img{
     width: 75%;
     height: 9em;
+     border-radius: 16px;
 }
 
 
